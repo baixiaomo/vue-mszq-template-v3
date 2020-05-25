@@ -1,0 +1,209 @@
+/**
+黑金皮肤
+ */
+$dark-gold: (
+  /* 背景色 */
+  bg: #2C2A30, // 背景色
+  bg-base: #211F22, // 底色
+
+  /* 导航菜单 */
+  menu-bg: #211F22,
+  menu-color: #DFDFE0,
+  menu-active-color: #D4B381,
+  menu-hover-color: #D4B381,
+  menu-gradient: linear-gradient(270deg,rgba(181,162,127,0) 0%,rgba(181,162,127,0.41) 100%),
+
+  menu-pop-bg: #3A383E,
+  menu-pop-bg-hover: rgba(208,208,208,0.05),
+  menu-pop-bg-active: rgba(208,208,208,0.05),
+  menu-pop-color: #DFDFE0,
+  menu-pop-hover-color: #D4B381,
+  menu-pop-active-color: #D4B381,
+
+  /* 表格 */
+  table-bg: #2C2A30,
+  table-color: #DFDFE0,
+  table-th-bg: #36343A,
+  table-th-color: rgba(182,172,153,0.4),
+  table-th-sort-color: rgba(181,162,127,0.7),
+  table-th-sort-active-color: #D4B381,
+  table-tr-hover: #37343C,
+  table-tr-stripe: #2F2D33,
+  table-tr-current: #4f4c56,
+
+  /* 分页 */
+  page-bg: #36343A,
+  page-color: #66636C,
+  page-active-color: #B5A27F ,
+  page-input-border: #27252A,
+
+  /* 图标 */
+  icon-bg: #3A383E,
+  icon-color: #B5A27F,
+  icon-active-color: #D4B381,
+  icon-active-bg: #3A383E,
+  icon-border: #3A383E,
+  icon-active-border: #3A383E,
+
+  /* 表单 */
+  label-color: rgba(255,255,255,0.8),
+  input-bg: #2C2A30,
+  input-account-bg: #211F22,
+  input-bg-disable: #211F22,
+  input-placeholder-color: #7C756E,
+  input-color: #DFDFE0,
+  input-color-disabled: #66636C,
+  input-border: rgba(255,255,255,0.2),
+  input-active-border: #D4B381,
+  input-icon: #B6AC99,
+
+  condition_m: #27252A,
+
+  /* card */
+  card-bg: #2C2A30,
+  card-color: #FFFFFF,
+  card-border: #2C2A30,
+  card-color-header: #FFFFFF,
+
+  /* 弹框 */
+  dialog-bg: #3A383E,
+  dialog-border: #3A383E,
+  dialog-color: #DFDFE0,
+  dialog-title-color: #FFFFFF,
+  dialog-close: #8A8379,
+
+  /* 级联框 */
+  cascader-bg: #3A383E,
+  cascader-list-bg: #3A383E,
+  cascader-list-hover-bg: #48474C,
+  cascader-list-active-bg: #D4B381,
+  cascader-color: #DFDFE0,
+  cascader-hover-color: #D4B381,
+  cascader-active-color: #27252A,
+
+  /* 下拉框 */
+
+  /* collapse */
+  collapse-bg: #2C2A30,
+  collapse-color: #DFDFE0,
+  collapse-title-color: #FFFFFF,
+  collapse-icon-color: #FFFFFF,
+  collapse-sm-title-color: #DFDFE0,
+  collapse-active-color: #FFFFFF,
+
+  /* radio */
+  radio-label: rgba(255,255,255,0.8),
+  radio-border: #FFFFFF,
+  radio-checked-border: #D4B381,
+  radio-checked-bg: #FFFFFF,
+  radio-checked-after: #D4B381,
+
+  /* 按钮色 */
+  btn-checked-bg : #D4B381, // 选中背景
+  btn-checked-text: #2C2A30, // 选中文字
+  btn-hover-bg: #4D4540,
+  btn-hover-text: #D4B381,
+  btn-unchecked-bg: #3A383E, // 未选中背景
+  btn-unchecked-text: #8A8379, // 未选中文字
+  btn-uncheck-bg: #48474C, // 排序方式未选中
+  btn-uncheck-text:#B6AC99,// 排序方式未选中字体
+  btn-primary: #D4B381,
+  btn-primary-hover: #4D4540,
+  btn-primary-active: #D4B381,
+  btn-default: #DFDFE0,
+  btn-default-hover: #c0c4cc,
+  btn-default-active: #DFDFE0,
+  btn-danger: #DFDFE0,
+  btn-danger-hover: #DFDFE0,
+  btn-danger-active: #DFDFE0,
+  btn-warning: #8A8379,
+  btn-warning-hover: #8A8379,
+  btn-warning-active: #8A8379,
+
+  /* 收藏按钮*/
+  btn-follow-bg: #D4B381,
+  btn-follow-text: #27252A,
+  btn-unfollow-bg: #8A8379,
+  btn-unfollow-text: #27252A,
+
+  /* 操作按钮*/
+  btn-cz-bg: #3A383E,
+  btn-cz-border: #3A383E,
+  btn-cz-text: #B5A27F,
+  btn-cz-active-bg: #D4B381,
+  btn-cz-active-border: #D4B381,
+  btn-cz-active-text: #27252A,
+
+  /* 多选按钮 */
+  checkbox-inner: #27252A,
+  checkbox-bg-checked: #D4B381,
+  checkbox-bg-unchecked: #DFDFE0,
+
+  /* 文字 */
+  text-a: #FFFFFF, // H1模块标题; H2模块2级标题色; input输入文字色;
+  text-a-4:  rgba(255,255,255,0.4), // 描述性文字
+  text-a-8:  rgba(255,255,255,0.8), // 文字
+  text-a-3: rgba(39,37,42,0.3), //排序详情 下边框
+  text-b: #D4B381, // 主色: 链接文字选中色; 翻页选中页色;
+  text-c: #B5A27F, // 表单公司类文字链接色
+  text-d: #B6AC99, // 表头文字色;分类标题色; 非选中按钮文字色;
+  text-e: #DFDFE0, // 主色: 导航未选中色; icon未选中色;表单正文色; 浮窗文字色;
+  text-g: #7C756E, // 标题前面的竖线颜色
+  text-h: #B6AC99, // 查询按钮字体颜色
+  text-j: #887162, // 开发中
+  title-txt:#DFDFE0,// 标题颜色
+
+  /* 基本信息 */
+  info-color: #DFDFE0,
+  info-label: rgba(182,172,153,0.4),
+
+  /* 渐变 */
+  gradient-a: linear-gradient(90deg,#614b4f 0%,#2c2a30 10%),
+  gradient-a-2: linear-gradient(90deg,#614b4f 0%,#3a383e 10%),
+  gradient-a-ms: #614b4f,
+  gradient-b: linear-gradient(270deg,rgba(181,162,127,0) 0%,rgba(181,162,127,0.26) 100%),
+  focus-color: #FF714F,
+  focus-border-color: #27252A,
+  tag-color: #D4B381,
+  doubt-bg: #422f36,
+
+  /* 预警阈值 */
+  threshold-label-color: #FFFFFF,
+  threshold-input-color: #DFDFE0,
+
+  /* popover */
+  pop-bg-top: #36343A, // 浮窗顶部背景色
+  pop-bg-list-hover: #424045, // 浮窗列表hover
+  pop-bg: #3A383E, // 浮窗色
+  pop-text-top: #FFFFFF,
+  pop-text: #DFDFE0,
+  pop-text-active:#D4B381,
+  pop-active-bg:#D4B381, // 选中背景
+  pop-active-text: #27252A,// 选中字体颜色
+  pop-message-bg:#3A383E, // 弹框背景
+  pop-close-text: #8A8379, //弹框关闭
+  pop-bg-bottom: #36343A, // 浮窗底部背景色
+  pop-bg-th: #36343A , // 浮窗部背景色
+  pop-hr: rgba(255,255,255,0.4),
+  pop-disabled-bg: #36343a,
+  pop-disabled-color: #848484,
+
+  pop-chart-bg: #3A383E,
+  pop-chart-title: #DFDFE0,
+
+  /*论坛功能*/
+  com-bg-wrap: #2F2D33, // 评论块 背景色
+  com-bg-inner: #2C2A30, // 被回复内容背景色
+  com-bg-reply: #27252A, // 发表评论、回复 背景色
+  com-header: #7C756E, //
+  com-comment: #DFDFE0,//评论
+  com-reply: rgba(223, 223, 224, 0.60),//回复
+  com-icon: #8A8379, // 图标色
+  com-icon-active: #D4B381, // 图标色
+
+  /* 全局遮罩底色 */
+  wrap-bg: rgba(33, 31, 34, 0.95),
+
+  ingUrl: 'dark-gold-ing',
+  noneUrl: 'dark-gold-none'
+)

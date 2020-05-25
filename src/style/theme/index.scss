@@ -1,0 +1,8 @@
+@import "dark-blue";
+@import "dark-gold";
+@import "light-white";
+$themes:(
+  'dark-blue': $dark-blue,
+  'dark-gold': $dark-gold,
+  'light-white': $light-white
+)
